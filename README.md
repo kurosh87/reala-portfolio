@@ -16,6 +16,7 @@ Portfolio monorepo for a real-estate operations product suite: marketing, AI int
 - [Architecture](docs/architecture.md)
 - [Demo status](docs/demo-status.md)
 - [ChronoGuesser case study](docs/chronoguesser-portfolio.md)
+- [Loungebase case study](docs/loungebase-portfolio.md)
 - [Security](SECURITY.md)
 
 ## Portfolio Preview
@@ -47,4 +48,5 @@ This repository is cleaned for demo use. Local secrets, copied credentials, buil
 
 - Aerobase / Jetlag public demo: public-safe travel platform demo prepared separately as `aerobase-public-demo`. The private source repo was preserved untouched, the public copy was reduced to a source-only demo, and supplier integrations, scraping targets, backend code, and proprietary scoring were replaced by deterministic fixtures/stubs.
 - ChronoGuesser: standalone portfolio case study for a historical-location guessing game with generated panoramas, catalog enrichment, Supabase-backed content operations, and mobile client wiring. It is documentation-only here so copying this repo does not provide a runnable implementation.
+- Loungebase: standalone portfolio case study for an iOS airport lounge companion covering SwiftUI product UX, subscription readiness, App Store submission prep, privacy packaging, and free-build fallback decisions. It is documentation-only here so copying this repo does not provide a runnable app.
 - Job poster tooling: markdown-resume is installed under the job posting workspace as supporting portfolio/resume infrastructure.

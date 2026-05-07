@@ -14,6 +14,7 @@
 | --- | --- | --- |
 | Aerobase / Jetlag public demo | Public-safe demo prepared on Mac mini | reduced from the private 8.5G source to a source-only demo. No private git history. Backend calls are stubbed with deterministic fixtures for cash search, award search, trip/result selection, jetlag scoring, and recovery-plan generation. |
 | ChronoGuesser | Portfolio-only case study | Standalone documentation at `docs/chronoguesser-portfolio.md`. No source code, setup path, hosted refs, generation scripts, prompt templates, or production data are included, so copying the Reala repo does not produce a runnable ChronoGuesser implementation. |
+| Loungebase | Portfolio-only case study | Standalone documentation at `docs/loungebase-portfolio.md`. No source code, signing assets, App Store Connect identifiers, RevenueCat products, backend refs, reviewer accounts, IPA paths, or submission artifacts are included, so copying the Reala repo does not produce a runnable Loungebase app. |
 | Job poster / resume tooling | Installed under job posting workspace | `markdown-resume` was installed under the job poster project as supporting tooling for resume/profile workflows. This is supporting infrastructure, not part of the Reala monorepo. |
 
 ## Aerobase / Jetlag Demo Evidence
