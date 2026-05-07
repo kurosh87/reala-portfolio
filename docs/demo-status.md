@@ -1,0 +1,35 @@
+# Demo Status
+
+## Reala
+
+| Surface | Status | Notes |
+| --- | --- | --- |
+| Marketing site | Demo-ready | Runs from the root app. Lint passes with existing image optimization warnings. |
+| AI intake app | In progress | `apps/chatbot` is included as the selected AI intake/workflow surface. Runtime secrets are required for full provider-backed behavior. |
+| Brokerage portal | Build-verified | `pnpm build:brokerage` passes. Runtime database workflows require environment variables. |
+
+## Related Portfolio Work
+
+| Project | Status | Portfolio framing |
+| --- | --- | --- |
+| Aerobase / Jetlag public demo | Public-safe demo prepared on Mac mini | reduced from the private 8.5G source to a source-only demo. No private git history. Backend calls are stubbed with deterministic fixtures for cash search, award search, trip/result selection, jetlag scoring, and recovery-plan generation. |
+| ChronoGuesser | Portfolio-only case study | Standalone documentation at `docs/chronoguesser-portfolio.md`. No source code, setup path, hosted refs, generation scripts, prompt templates, or production data are included, so copying the Reala repo does not produce a runnable ChronoGuesser implementation. |
+| Job poster / resume tooling | Installed under job posting workspace | `markdown-resume` was installed under the job poster project as supporting tooling for resume/profile workflows. This is supporting infrastructure, not part of the Reala monorepo. |
+
+## Aerobase / Jetlag Demo Evidence
+
+- Private source was preserved untouched and not reused as public history.
+- Public demo copy prepared as the separate `aerobase-public-demo` repo.
+- Removed private git history, `.env*`, MCP config, deploy/infra, agents, internal docs, screenshots, caches, build output, supplier/scraper/backend code, and proprietary algorithm packages.
+- Added public-facing `README.md` and `docs/public-demo.md`.
+- Verified clean for known live-key patterns.
+- Verified `pnpm typecheck`, `pnpm test` with 6/6 passing, and `pnpm build` on Node v25.9.0.
+- Publishing note: rotate credentials from the private Mac mini source before making any related public repo visible.
+
+## Publish Checklist
+
+- Keep only `.env.example`; never commit real env files.
+- Run `pnpm lint:all`.
+- Run `pnpm build:brokerage`.
+- Run a secret scan on the current tree before making the repo public.
+- Use a fresh public repository for any sanitized demo copied from a private repo.

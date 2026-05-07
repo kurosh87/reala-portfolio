@@ -1,0 +1,13 @@
+.git
+.next
+.playwright-mcp
+.pnpm-store
+node_modules
+apps/*/.next
+apps/*/node_modules
+apps/*/.pnpm-store
+output
+tmp
+*.png
+tsconfig.tsbuildinfo
+apps/*/tsconfig.tsbuildinfo

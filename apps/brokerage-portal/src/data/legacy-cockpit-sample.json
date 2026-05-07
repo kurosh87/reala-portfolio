@@ -1,0 +1,838 @@
+{
+  "generatedAt": "2026-04-28T21:19:12.594Z",
+  "source": {
+    "mode": "sanitized-local-dump-sample",
+    "deliverablesDump": "sanitized-demo-source",
+    "fieldtechDump": "sanitized-demo-source",
+    "piiPolicy": "Client names, emails, addresses, payment references, passwords, notes, and raw payloads are omitted or replaced with labels."
+  },
+  "counts": {
+    "clients": 515,
+    "appointments": 17337,
+    "invoices": 60,
+    "printProducts": 37,
+    "printOrders": 11,
+    "fieldTechUsers": 3,
+    "fieldTechEvents": 339,
+    "fieldTechEntries": 201
+  },
+  "serviceFlags": {
+    "photos": 1681,
+    "floorPlans": 16038,
+    "videos": 245,
+    "matterport": 744,
+    "printedMaterial": 0
+  },
+  "appointmentStatusCounts": {
+    "COMPLETED": 17257,
+    "OPEN": 44,
+    "CANCELLED": 32,
+    "DELETED": 4
+  },
+  "invoiceStatusCounts": {
+    "N/A": 14467,
+    "PAID": 2428,
+    "UNPAID": 441,
+    "UNDER REVIEW": 1
+  },
+  "printStatusCounts": {
+    "Proof sent, awaiting approval": 1,
+    "Ordered": 6,
+    "Completed - Order collected/dropped off/delivered": 2,
+    "Completed - Ready for delivery": 2
+  },
+  "samples": {
+    "appointments": [
+      {
+        "id": 1,
+        "legacyId": "TT-3055",
+        "clientLabel": "Client 001",
+        "listingLabel": "Listing 001",
+        "addressLabel": "Address 001",
+        "status": "CANCELLED",
+        "date": "2026-02-16",
+        "serviceName": "01_Standard floor plan, HDR photographs and standard Matterport (up to 1,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Floor plan",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Video",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Matterport",
+            "status": "DELIVERED"
+          }
+        ],
+        "deliveredServices": 4,
+        "totalServices": 4,
+        "invoice": {
+          "generated": true,
+          "amount": 95.66,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 2,
+        "legacyId": "TT-5242",
+        "clientLabel": "Client 002",
+        "listingLabel": "Listing 002",
+        "addressLabel": "Address 002",
+        "status": "OPEN",
+        "date": "2026-04-27",
+        "serviceName": "02_Standard floor plan, HDR photographs and standard Matterport (1,001 - 2,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Floor plan",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Matterport",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 2,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 3,
+        "legacyId": "TT-9548",
+        "clientLabel": "Client 003",
+        "listingLabel": "Listing 003",
+        "addressLabel": "Address 003",
+        "status": "OPEN",
+        "date": "2026-04-30",
+        "serviceName": "02_Standard floor plan, HDR photographs and standard Matterport (1,001 - 2,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Floor plan",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Video",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 4,
+        "legacyId": "TT-5953",
+        "clientLabel": "Client 004",
+        "listingLabel": "Listing 004",
+        "addressLabel": "Address 004",
+        "status": "CANCELLED",
+        "date": "2026-04-29",
+        "serviceName": "03_Standard floor plan and HDR photographs (2,001 - 3,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Floor plan",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Video",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 5,
+        "legacyId": "TT-4109",
+        "clientLabel": "Client 005",
+        "listingLabel": "Listing 005",
+        "addressLabel": "Address 005",
+        "status": "OPEN",
+        "date": "2026-02-27",
+        "serviceName": "03_Standard floor plan, HDR photographs and standard Matterport (2,001 - 3,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Floor plan",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Matterport",
+            "status": "DELIVERED"
+          }
+        ],
+        "deliveredServices": 3,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": true,
+        "hasSubfolder": false
+      },
+      {
+        "id": 6,
+        "legacyId": "TT-8570",
+        "clientLabel": "Client 006",
+        "listingLabel": "Listing 006",
+        "addressLabel": "Address 006",
+        "status": "CANCELLED",
+        "date": "2026-02-20",
+        "serviceName": "01_Basic floor plan, standard photographs and standard Matterport (up to 1,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Floor plan",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Video",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 7,
+        "legacyId": "TT-5674",
+        "clientLabel": "Client 007",
+        "listingLabel": "Listing 007",
+        "addressLabel": "Address 007",
+        "status": "OPEN",
+        "date": "2025-09-02",
+        "serviceName": "01_Standard floor plan, HDR photographs and standard Matterport (up to 1,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "1"
+          },
+          {
+            "name": "Floor plan",
+            "status": "1"
+          },
+          {
+            "name": "Video",
+            "status": "1"
+          },
+          {
+            "name": "Matterport",
+            "status": "1"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 4,
+        "invoice": {
+          "generated": true,
+          "amount": 495.76,
+          "paymentStatus": "PAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": true
+        },
+        "shareableEnabled": true,
+        "hasSubfolder": false
+      },
+      {
+        "id": 8,
+        "legacyId": "TT-8739",
+        "clientLabel": "Client 008",
+        "listingLabel": "Listing 008",
+        "addressLabel": "Address 008",
+        "status": "OPEN",
+        "date": "2025-08-28",
+        "serviceName": "05_Standard floor plan, HDR photographs and standard Matterport (4,001 - 5,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Floor plan",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Video",
+            "status": "IN PROGRESS"
+          },
+          {
+            "name": "Matterport",
+            "status": "DELIVERED"
+          }
+        ],
+        "deliveredServices": 2,
+        "totalServices": 4,
+        "invoice": {
+          "generated": true,
+          "amount": 313.58,
+          "paymentStatus": "PAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": true,
+        "hasSubfolder": false
+      },
+      {
+        "id": 9,
+        "legacyId": "TT-1000",
+        "clientLabel": "Client 009",
+        "listingLabel": "Listing 009",
+        "addressLabel": "Address 009",
+        "status": "OPEN",
+        "date": "2026-04-24",
+        "serviceName": "01_Standard floor plan, HDR photographs and standard Matterport (up to 1,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Floor plan",
+            "status": "DELIVERED"
+          },
+          {
+            "name": "Matterport",
+            "status": "DELIVERED"
+          }
+        ],
+        "deliveredServices": 3,
+        "totalServices": 3,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 10,
+        "legacyId": "TT-5037",
+        "clientLabel": "Client 010",
+        "listingLabel": "Listing 010",
+        "addressLabel": "Address 010",
+        "status": "CANCELLED",
+        "date": "2026-03-16",
+        "serviceName": "02_Premium Video (1,501 - 3,000 sq ft)",
+        "services": [
+          {
+            "name": "Video",
+            "status": "1"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 1,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 11,
+        "legacyId": "TT-9598",
+        "clientLabel": "Client 011",
+        "listingLabel": "Listing 011",
+        "addressLabel": "Address 011",
+        "status": "CANCELLED",
+        "date": "2025-05-10",
+        "serviceName": "01_Premium Video (up to 1,500 sq ft)",
+        "services": [
+          {
+            "name": "Video",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 1,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      },
+      {
+        "id": 12,
+        "legacyId": "TT-4446",
+        "clientLabel": "Client 012",
+        "listingLabel": "Listing 012",
+        "addressLabel": "Address 012",
+        "status": "OPEN",
+        "date": "2026-05-05",
+        "serviceName": "02_Standard Matterport and standard photographs (1,001 - 2,000 sq ft)",
+        "services": [
+          {
+            "name": "Photography",
+            "status": "IN PROGRESS"
+          }
+        ],
+        "deliveredServices": 0,
+        "totalServices": 1,
+        "invoice": {
+          "generated": false,
+          "amount": 0,
+          "paymentStatus": "UNPAID",
+          "hasStripeReference": false,
+          "hasOtherPaymentDetails": false
+        },
+        "shareableEnabled": false,
+        "hasSubfolder": false
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "legacyId": "USER-0134",
+        "clientLabel": "Client 001",
+        "accountType": "unknown",
+        "industry": "residential",
+        "brokeragePresent": true,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": true,
+          "featureSheet": true,
+          "virtualStaging": true,
+          "banners": false,
+          "printShop": true,
+          "calculator": false,
+          "spw": true
+        }
+      },
+      {
+        "id": 2,
+        "legacyId": "USER-0135",
+        "clientLabel": "Client 002",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": false,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 3,
+        "legacyId": "USER-0141",
+        "clientLabel": "Client 003",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": false,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 4,
+        "legacyId": "USER-0142",
+        "clientLabel": "Client 004",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": false,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 5,
+        "legacyId": "USER-0143",
+        "clientLabel": "Client 005",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": true,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 6,
+        "legacyId": "USER-0144",
+        "clientLabel": "Client 006",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": false,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 7,
+        "legacyId": "USER-0145",
+        "clientLabel": "Client 007",
+        "accountType": "unknown",
+        "industry": "residential",
+        "brokeragePresent": true,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": true,
+          "featureSheet": false,
+          "virtualStaging": true,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      },
+      {
+        "id": 8,
+        "legacyId": "USER-0147",
+        "clientLabel": "Client 008",
+        "accountType": "unknown",
+        "industry": "unknown",
+        "brokeragePresent": false,
+        "hasStripeReference": false,
+        "hasSubfolder": false,
+        "hasSubAccounts": false,
+        "entitlements": {
+          "membership": false,
+          "featureSheet": false,
+          "virtualStaging": false,
+          "banners": false,
+          "printShop": false,
+          "calculator": false,
+          "spw": false
+        }
+      }
+    ],
+    "printOrders": [
+      {
+        "id": 1,
+        "legacyId": "PRINT-0004",
+        "clientLabel": "Client 001",
+        "addressLabel": "No address on order",
+        "status": "Proof sent, awaiting approval",
+        "quantity": 1,
+        "total": 32.66,
+        "payment": "Under Review",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2025-08-31 02:12:21"
+      },
+      {
+        "id": 2,
+        "legacyId": "PRINT-0005",
+        "clientLabel": "Client 002",
+        "addressLabel": "No address on order",
+        "status": "Ordered",
+        "quantity": 1,
+        "total": 102.06,
+        "payment": "Paid",
+        "hasTracking": false,
+        "hasStripeReference": true,
+        "createdAt": "2025-08-31 02:51:32"
+      },
+      {
+        "id": 3,
+        "legacyId": "PRINT-0008",
+        "clientLabel": "Client 003",
+        "addressLabel": "No address on order",
+        "status": "Ordered",
+        "quantity": 1,
+        "total": 74.13,
+        "payment": "Unpaid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2025-08-31 11:03:15"
+      },
+      {
+        "id": 4,
+        "legacyId": "PRINT-0010",
+        "clientLabel": "Client 004",
+        "addressLabel": "No address on order",
+        "status": "Completed - Order collected/dropped off/delivered",
+        "quantity": 1,
+        "total": 43.85,
+        "payment": "Paid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2025-09-01 01:07:57"
+      },
+      {
+        "id": 5,
+        "legacyId": "PRINT-0012",
+        "clientLabel": "Client 005",
+        "addressLabel": "No address on order",
+        "status": "Ordered",
+        "quantity": 1,
+        "total": 137.59,
+        "payment": "Unpaid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2025-08-31 22:43:24"
+      },
+      {
+        "id": 6,
+        "legacyId": "PRINT-0014",
+        "clientLabel": "Client 006",
+        "addressLabel": "No address on order",
+        "status": "Completed - Ready for delivery",
+        "quantity": 1,
+        "total": 316.27,
+        "payment": "Unpaid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2025-09-01 21:04:12"
+      },
+      {
+        "id": 7,
+        "legacyId": "PRINT-0028",
+        "clientLabel": "Client 007",
+        "addressLabel": "No address on order",
+        "status": "Ordered",
+        "quantity": 1,
+        "total": 13.13,
+        "payment": "Unpaid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2026-02-08 13:32:28"
+      },
+      {
+        "id": 8,
+        "legacyId": "PRINT-0034",
+        "clientLabel": "Client 008",
+        "addressLabel": "No address on order",
+        "status": "Ordered",
+        "quantity": 1,
+        "total": 21,
+        "payment": "Unpaid",
+        "hasTracking": false,
+        "hasStripeReference": false,
+        "createdAt": "2026-02-13 23:50:44"
+      }
+    ],
+    "fieldEvents": [
+      {
+        "id": 1,
+        "legacyId": "CALEVENT-3gap",
+        "title": "Calendar job 001",
+        "locationLabel": "Address 001",
+        "startDate": "2022-06-28T11:00:00-07:00",
+        "endDate": "2022-06-28T11:20:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 2,
+        "legacyId": "CALEVENT-gf3n",
+        "title": "Calendar job 002",
+        "locationLabel": "Address 002",
+        "startDate": "2022-07-19T12:00:00-07:00",
+        "endDate": "2022-07-19T13:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": true
+      },
+      {
+        "id": 3,
+        "legacyId": "CALEVENT-1oqk",
+        "title": "Calendar job 003",
+        "locationLabel": "No location",
+        "startDate": "2022-09-06T13:00:00-07:00",
+        "endDate": "2022-09-06T14:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 4,
+        "legacyId": "CALEVENT-0b1d",
+        "title": "Calendar job 004",
+        "locationLabel": "No location",
+        "startDate": "2022-09-21T16:30:00-07:00",
+        "endDate": "2022-09-21T17:30:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 5,
+        "legacyId": "CALEVENT-qlld",
+        "title": "Calendar job 005",
+        "locationLabel": "Address 005",
+        "startDate": "2022-08-30T13:30:00-07:00",
+        "endDate": "2022-08-30T14:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 6,
+        "legacyId": "CALEVENT-oguk",
+        "title": "Calendar job 006",
+        "locationLabel": "Address 006",
+        "startDate": "2022-10-31T11:00:00-07:00",
+        "endDate": "2022-10-31T12:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 7,
+        "legacyId": "CALEVENT-36ni",
+        "title": "Calendar job 007",
+        "locationLabel": "Address 007",
+        "startDate": "2022-10-03T10:30:00-07:00",
+        "endDate": "2022-10-03T11:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      },
+      {
+        "id": 8,
+        "legacyId": "CALEVENT-agoc",
+        "title": "Calendar job 008",
+        "locationLabel": "Address 008",
+        "startDate": "2022-07-18T11:00:00-07:00",
+        "endDate": "2022-07-18T12:00:00-07:00",
+        "archived": true,
+        "archivedWebApp": false
+      }
+    ]
+  },
+  "exceptions": [
+    {
+      "type": "invoice_attention",
+      "severity": "high",
+      "count": 442,
+      "recommendation": "Mirror invoice detail first, then deep-link operators to the legacy appointment manager for payment updates."
+    },
+    {
+      "type": "undelivered_services",
+      "severity": "medium",
+      "count": 618,
+      "recommendation": "Show service-level status next to each listing so delivery gaps are visible before client handoff."
+    },
+    {
+      "type": "matterport_candidates",
+      "severity": "medium",
+      "count": 744,
+      "recommendation": "Store canonical Matterport model/link separately from address-generated tour URLs."
+    },
+    {
+      "type": "print_orders_processing",
+      "severity": "medium",
+      "count": 0,
+      "recommendation": "Mirror print order state and connect it to invoice/payment visibility before rebuilding print workflows."
+    },
+    {
+      "type": "fieldtech_unarchived_events",
+      "severity": "low",
+      "count": 244,
+      "recommendation": "Use calendar events as a mirror source, but rebuild new portal work around jobs and uploads."
+    }
+  ]
+}
